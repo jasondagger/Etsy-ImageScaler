@@ -1,0 +1,30 @@
+# Ignore Visual Studio files
+.vs/
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.pdb
+
+# Ignore build output
+ImageScaler/bin/
+ImageScaler/obj/
+
+# Ignore NuGet packages
+packages/
+
+# Ignore build artifacts
+*.dll
+*.exe
+
+# Ignore project-specific files
+*.csproj.user
+
+# Ignore temporary files
+*.cache
+*.log
+*.vscode
+
+# Ignore OS-specific files
+.DS_Store
+thumbs.db
